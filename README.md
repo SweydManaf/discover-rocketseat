@@ -19,9 +19,9 @@
 
 <div align="center">
   <a href="https://app.rocketseat.com.br/discover/certificates">
-    <img height="300px" alt="Certificado Discover Conectar" src="https://github.com/sweydmanaf/rocketseat-discover/blob/main/images/discover-conectar-certificate.jpg">
+    <img height="300px" alt="Certificado Discover Conectar" src="https://github.com/SweydManaf/discover-rocketseat/blob/main/images/certificados/certificado-conectar-discover.png">
   </a>
-  <p>Código: </p>
+  <p>Código: ad9074b5-4ac5-4120-94d3-e88c58163768</p>
   <br>
 </div>
 
