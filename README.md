@@ -3,7 +3,7 @@
 <div align="center">
 <a href="https://github.com/sweydmanaf/discover-rocketseat">
 
-![Rocketseat Discover](images/rocketseat_discover_dark.png)
+![Rocketseat Discover](https://github.com/SweydManaf/discover-rocketseat/blob/main/images/rocketseat_discover_dark.png)
 
 </a>
 </div>
