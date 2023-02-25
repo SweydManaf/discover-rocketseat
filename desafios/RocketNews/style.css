@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+body * {
+  font-family: "League Spartan", sans-serif;
+  background-color: var(--body-bg-color);
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+section#container {
+  min-width: 720px;
+}
+
+header > img {
+  width: 389px;
+  height: 94px;
+
+  margin: 50px 301px 92px 30px;
+}
+
+div#sobre {
+  margin: 0 37px 50px 36px;
+}
+
+div#sobre > h3 {
+  font-weight: 700;
+  color: var(--title-color);
+  line-height: 28px;
+}
+
+div#sobre > p:nth-child(even) {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 9px;
+}
+
+div#email {
+  margin-left: 36px;
+  position: relative;
+}
+
+div#email > p {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--form-color);
+}
+
+div#email > input {
+  margin: 17px 0 50px 0;
+  padding-left: 10px;
+
+  color: black;
+  font-weight: 400;
+
+  width: 530px;
+  height: 48px;
+  background-color: white;
+  border: none;
+  border-left: 5px solid var(--title-color);
+  outline: none;
+}
+
+div#email > button {
+  position: absolute;
+
+  width: 48px;
+  height: 48px;
+
+  border: none;
+  background-color: var(--bg-button-color);
+  margin-top: 17px;
+}
+
+div#email > button:hover{
+    cursor: pointer;
+}
+
+div#email > button > a{
+    background-color: var(--bg-button-color);
+}
+
+div#email > button > a > img {
+  background-color: var(--bg-button-color);
+}
+
+div#read-more {
+  margin-left: 36px;
+}
+
+div#read-more > button{
+    border: none;
+}
+
+div#read-more > button > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--bg-button-color);
+  text-decoration: none;
+
+  font-weight: 700;
+  font-size: 14px;
+}
+
+div#read-more > button > a:hover{
+    text-decoration: underline;
+}
+
+section#image {
+  background: black url(assets/read_news.jpg) left top no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}

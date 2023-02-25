@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocketNews</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css">
+  </head>
+  <body>
+    <main>
+      <section id="container">
+        <header>
+          <img src="assets/logo.svg" alt="RocketNews" />
+        </header>
+
+        <div id="sobre">
+          <h3>atualize ideias e informações em 5 minutos.</h3>
+          <p>
+            tudo que você precisa saber para começar seu dia bem e informado
+          </p>
+          <p>
+            noticias sobre o universo Rocketseat, e tudo o que precisa para
+            começar o dia melhor. perfeito para se preparar para codar ☕
+          </p>
+        </div>
+
+        <div id="email">
+          <p>Insira seu e-mail:</p>
+          <input
+            type="email"
+            name="email"
+            id="emaili"
+            placeholder="oi@rocketseat.com"
+            required
+          />
+          <button onclick="sendEmail()"><a href=""><img src="assets/send.svg" alt="send"></a></button>
+        </div>
+        
+        <div id="read-more">
+          <button>
+            <a href="#">
+                deixe-me ler primeiro
+                <img src="assets/arrow-right.svg" alt="arrow right" />
+            </a>
+          </button>
+        </div>
+      </section>
+      <section id="image">
+      </section>
+    </main>
+    <script>
+        function sendEmail(){
+            let emailInput = document.querySelector('#emaili')
+            console.log(emailInput)
+            if (emailInput.value.length > 0) {
+                alert('Adicionado a newsletter!')
+            } else{
+                alert('Adicione o seu email!')
+            }
+        }
+    </script>
+  </body>
+</html>
